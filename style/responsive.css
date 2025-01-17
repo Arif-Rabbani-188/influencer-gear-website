@@ -47,6 +47,10 @@
       }
 
       .container > .items{
+        width: calc(100% - 2rem);
+      }
+
+      .items > img{
         width: 100%;
       }
 
