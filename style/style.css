@@ -45,6 +45,14 @@ header {
   color: var(--primary-color);
 }
 
+.navbar > ul > li > a > img{
+    width: 1.5rem;
+  }
+
+.navbar > ul > li > a:hover {
+  color: var(--secondary-color);
+}
+
 /* Banner Styles */
 
 .banner {

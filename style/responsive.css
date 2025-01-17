@@ -1,0 +1,54 @@
+@media screen and (max-width:576px){
+    .navbar > ul{
+        display: none;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        gap: 1rem;
+    }
+
+    .bannerImage{
+        width: 100%;
+    }
+
+    .bannerImage > img{
+        width: 100%;
+    }
+
+    .bannerText{
+        width: 100%;
+        text-align: left;
+    }
+
+    .bannerText h1{
+        font-size: 2.5rem;
+    }
+
+    .sponsors{
+        padding: 2rem;
+        width: calc(100% - 4rem);
+        margin: 0 auto;
+    }
+
+    .sponsors > .images{
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 1rem;
+    }
+
+    .popular > .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2rem;
+      }
+
+      .container > .items{
+        width: 100%;
+      }
+
+      .features{
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+}
