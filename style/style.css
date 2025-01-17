@@ -169,8 +169,49 @@ header {
   margin-bottom: 2rem;
 }
 
-#seeMore{
-    color: var(--secondary-color);
-    font-size: 1rem;
-    font-weight: 700;
+#seeMore {
+  color: var(--secondary-color);
+  font-size: 1rem;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+/* Features section style */
+
+.features {
+  display: flex;
+  width: 70%;
+  margin: 5rem auto;
+  gap: 6rem;
+}
+
+.featureText {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.featureText > h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--tertiary-color);
+}
+
+.featureText > p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.featureText > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16rem;
+  border-radius: 2.5rem;
+  background: var(--secondary-color);
+  padding: 0.7rem 1.5rem;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
 }
