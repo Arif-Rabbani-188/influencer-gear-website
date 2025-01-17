@@ -215,3 +215,27 @@ header {
   font-size: 1rem;
   font-weight: 700;
 }
+
+/* Footer Styles */
+
+footer {
+  padding: 3rem;
+  color: white;
+  width: calc(100% - 6rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 3rem;
+  background: rgb(0, 0, 90);
+}
+
+.socialImgs{
+    display: flex;
+    gap: 1rem;
+}
+
+.socialImgs > img {
+  width: 2rem;
+}
