@@ -1,8 +1,4 @@
 @media screen and (max-width:576px){
-    .navbar > .heading{
-        font-size: 2rem;
-    }
-    
     .navbar > ul{
         display: none;
     }
